@@ -15,7 +15,7 @@ public class Circle {
 
     public Circle(int r, Color c) {
         radius = r;
-        color = c;
+        this.color = c;
 
         Random rand = new Random();
         x = rand.nextInt(Canvas.WIDTH / 2);
